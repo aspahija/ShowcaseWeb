@@ -2,6 +2,35 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+	font-size: 40px;
+	color: #383634;
+}
+
+h2 {
+  display: inline-block;
+  text-align: center;
+  background-color: #383634;
+  padding: 3px 10px;
+  margin: 5px;
+  font-size: 1.75rem;
+  color: white;
+	opacity: 0.75;
+}
+
+h3 {
+  display: inline-block;
+  font-weight: 600;
+  background-color: #d9ed68;
+  text-align: center;
+  padding: 10px 25px;
+  color: #383634;
+	opacity: 0.8;
+}
+
 .nav {
   background-color: #;
   color: #383634;
@@ -13,6 +42,8 @@ body {
   background-color: #;
   text-align: right;
 	padding-right: 200px;
+	margin-top: 80px;
+	margin-bottom: 20px;
 }
 
 ul {
@@ -43,6 +74,10 @@ ul li a img {
 	padding: 0.75rem 0;
 }
 
+.dropdown-menu ul li {
+	display: list-item;
+}
+
 .title {
 	position: relative;
 	bottom: 60px;
@@ -54,4 +89,71 @@ ul li a img {
   text-align: center;
 	font-size: 40px;
 	color: #383634;
+}
+
+.container {
+  min-width: 775px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero1 {
+	background-image: url("img/newyork.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.hero2 {
+	background-image: url("img/auckland.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.hero3 {
+	background-image: url("img/seoul.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.supporting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supporting-container div {
+  background-size: cover;
+  min-width: 450px;
+  min-height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.upcoming {
+	background-image: url("img/istanbul.jpg");
+}
+
+.archived {
+	background-image: url("img/utrecht.jpg");
 }
