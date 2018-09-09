@@ -9,25 +9,38 @@ body {
 	padding-right: 200px;
 }
 
-.nav ul {
+.footer {
+  background-color: #;
+  text-align: right;
+	padding-right: 200px;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav ul li {
+ul li {
   display: inline-block;
-  padding: 0.75rem 0;
 }
 
-.nav ul li.left {
+ul li.left {
   float: left;
+	padding-left: 200px;
 }
 
-.nav ul li a img {
+.footer ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 0.25rem 0.25rem;
+}
+
+ul li a img {
 	height: 70%;
 	width: 70%;
 	opacity: 0.7;
+	padding: 0.75rem 0;
 }
 
 .title {
