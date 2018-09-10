@@ -32,6 +32,12 @@ h3 {
 	opacity: 0.65;
 }
 
+h3 a {
+	text-decoration: none;
+	display: block;
+	color: #383634;
+}
+
 .nav {
   background-color: #;
   color: #383634;
@@ -40,6 +46,7 @@ h3 {
 }
 
 .footer {
+	font-size: 20px;
   background-color: #;
   text-align: right;
 	padding-right: 200px;
