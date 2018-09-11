@@ -32,10 +32,18 @@ h3 {
 	opacity: 0.65;
 }
 
+p {
+	color: #383634;
+}
+
 h3 a {
 	text-decoration: none;
 	display: block;
 	color: #383634;
+}
+
+h3 a:hover {
+	color: orangered;
 }
 
 .nav {
@@ -73,6 +81,10 @@ ul li.left {
 	text-decoration: none;
 	color: black;
 	padding: 0.25rem 0.25rem;
+}
+
+.footer ul li a:hover {
+	color: orangered;
 }
 
 ul li a img {
