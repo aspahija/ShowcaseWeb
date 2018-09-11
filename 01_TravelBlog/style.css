@@ -82,10 +82,6 @@ ul li a img {
 	padding: 0.75rem 0;
 }
 
-.dropdown-menu ul li {
-	display: list-item;
-}
-
 .title {
 	position: relative;
 	bottom: 60px;
@@ -100,7 +96,8 @@ ul li a img {
 }
 
 .container {
-  min-width: 964px;
+	max-width: 964px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -127,6 +124,19 @@ ul li a img {
 
 #third {
 	background-image: url("img/seoul.jpg");
+}
+
+.quote {
+  background-color: #ffe600;
+  height: 15rem;
+	margin: 0 0 4em 0;
+  padding: 0 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .supporting-container {
