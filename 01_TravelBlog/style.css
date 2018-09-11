@@ -100,46 +100,33 @@ ul li a img {
 }
 
 .container {
-  min-width: 775px;
+  min-width: 964px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.hero1 {
+.hero {
+  background-size: cover;
+  width: 964px;
+  height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	margin: 0 0 50px 0;
+}
+
+#first {
 	background-image: url("img/newyork.jpg");
-  background-size: cover;
-  min-width: 964px;
-  min-height: 422px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-	margin: 0 0 50px 0;
 }
 
-.hero2 {
+#second {
 	background-image: url("img/auckland.jpg");
-  background-size: cover;
-  min-width: 964px;
-  min-height: 422px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-	margin: 0 0 50px 0;
 }
 
-.hero3 {
+#third {
 	background-image: url("img/seoul.jpg");
-  background-size: cover;
-  min-width: 964px;
-  min-height: 422px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-	margin: 0 0 50px 0;
 }
 
 .supporting-container {
@@ -150,8 +137,8 @@ ul li a img {
 
 .supporting-container div {
   background-size: cover;
-  min-width: 450px;
-  min-height: 345px;
+  width: 452px;
+  height: 345px;
   display: flex;
   justify-content: center;
   align-items: center;
